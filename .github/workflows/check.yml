@@ -82,7 +82,7 @@ jobs:
       - name: Fetch firmware
         if: env.need_update == 1
         run: |
-          if [[ "${{ matrix.model }}" == "SM-A525M" ]]; then
+          if [[ "${{ matrix.model }}" == "SM-S918B" ]]; then
               imei="351186791234562"
           else
               imei="352938771234569"
