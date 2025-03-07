@@ -15,28 +15,28 @@ jobs:
       matrix:
         include:
           # ODM OMC
-          - model: "SM-A525F"
+          - model: "SM-S918B"
             region: "INS"
           # OJM OMC
-          - model: "SM-A525F"
+          - model: "SM-S918B"
             region: "EGY"
           # OLE OMC
-          - model: "SM-A525F"
+          - model: "SM-S918B"
             region: "XID"
           # OLM OMC
-          - model: "SM-A525F"
+          - model: "SM-S918B"
             region: "XSA"
           # OWA OMC
-          - model: "SM-A525M"
+          - model: "SM-S918B"
             region: "CDR"
           # OWM OMC
-          - model: "SM-A525M"
+          - model: "SM-S918B"
             region: "TGP"
           # OWO OMC
-          - model: "SM-A525M"
+          - model: "SM-S918B"
             region: "PEO"
           # OXM OMC
-          - model: "SM-A525F"
+          - model: "SM-S918B"
             region: "SER"
 
     steps:
